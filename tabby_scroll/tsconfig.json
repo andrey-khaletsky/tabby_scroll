@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "es2015",
+    "target": "es2016",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "sourceMap": true,
+    "declaration": false,
+    "lib": ["es2016", "dom"],
+    "outDir": "dist",
+    "baseUrl": "src",
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*.ts"]
+}
